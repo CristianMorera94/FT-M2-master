@@ -1,0 +1,15 @@
+.container{
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnSearch{
+    color: white;
+    background-color: grey;
+}
+
+.btnSearch:hover{
+    color: grey;
+    background-color: white;
+}

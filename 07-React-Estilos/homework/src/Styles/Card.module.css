@@ -3,14 +3,14 @@
     flex-direction: column;
     width: 280px;
     align-content: center;
-    border: 2px solid green;
+    border: 2px solid gray;
     border-radius: 10px;
 }
 
 .Card1{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 280px;
     background-color: yellowgreen;
     border: 2px solid grey;
     border-radius: 10px;
@@ -19,16 +19,13 @@
 .btn{
     background-color: red;
     width: 25px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 5px;
     align-self: flex-end;
-}
-
-.btnColor{
-    Color: white;
 }
 
 .btn:hover{
     color: red;
     background-color: white;
+    cursor: pointer;
 }
